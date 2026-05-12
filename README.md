@@ -16,6 +16,12 @@ Add this marketplace to Codex:
 codex plugin marketplace add justkellers/populous-codex-plugin
 ```
 
+If `codex` is not on your PATH, use the bundled Codex app binary instead:
+
+```bash
+/Applications/Codex.app/Contents/Resources/codex plugin marketplace add justkellers/populous-codex-plugin
+```
+
 Restart Codex after adding the marketplace. Populous should appear as an installable plugin and prompt for authentication when the MCP server requires it.
 
 Self-serve publishing to the official Codex Plugin Directory is not assumed here; this repo is intended for GitHub-backed marketplace installation.

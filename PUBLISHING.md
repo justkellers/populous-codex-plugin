@@ -24,4 +24,10 @@ Use this GitHub-backed marketplace source:
 codex plugin marketplace add justkellers/populous-codex-plugin
 ```
 
+If `codex` is not on PATH, use the bundled Codex app binary:
+
+```bash
+/Applications/Codex.app/Contents/Resources/codex plugin marketplace add justkellers/populous-codex-plugin
+```
+
 Do not add bearer tokens, API keys, or private endpoints to marketplace files, `.mcp.json`, docs, or examples.
