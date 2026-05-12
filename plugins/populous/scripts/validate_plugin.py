@@ -189,9 +189,14 @@ def validate_plugin_json(plugin: dict[str, Any]) -> None:
 
 
 def validate_mcp_json(mcp: dict[str, Any]) -> None:
-    server = mcp.get("populous")
+    servers = mcp.get("mcpServers")
+    if not isinstance(servers, dict):
+        errors.append('.mcp.json must contain a top-level "mcpServers" object')
+        return
+
+    server = servers.get("populous")
     if not isinstance(server, dict):
-        errors.append(".mcp.json must contain a populous server object")
+        errors.append('mcpServers must contain a "populous" server object')
         return
 
     url = server.get("url")

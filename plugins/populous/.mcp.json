@@ -1,5 +1,7 @@
 {
-  "populous": {
-    "url": "https://run.populous.app/mcp"
+  "mcpServers": {
+    "populous": {
+      "url": "https://run.populous.app/mcp"
+    }
   }
 }
