@@ -22,7 +22,7 @@ If `codex` is not on your PATH, use the bundled Codex app binary instead:
 /Applications/Codex.app/Contents/Resources/codex plugin marketplace add justkellers/populous-codex-plugin
 ```
 
-Restart Codex after adding the marketplace. Populous should appear as an installable plugin and prompt for authentication when the MCP server requires it.
+Restart Codex after adding the marketplace. Populous should appear as an installable plugin. Authentication happens when Codex first needs to use the Populous MCP server.
 
 Self-serve publishing to the official Codex Plugin Directory is not assumed here; this repo is intended for GitHub-backed marketplace installation.
 

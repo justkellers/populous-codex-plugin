@@ -239,8 +239,8 @@ def validate_marketplace_json(marketplace: dict[str, Any]) -> None:
     else:
         if policy.get("installation") != "AVAILABLE":
             errors.append('marketplace policy.installation must be "AVAILABLE"')
-        if policy.get("authentication") != "ON_INSTALL":
-            errors.append('marketplace policy.authentication must be "ON_INSTALL"')
+        if policy.get("authentication") != "ON_USE":
+            errors.append('marketplace policy.authentication must be "ON_USE"')
 
     if entry.get("category") != "Productivity":
         errors.append('marketplace category must be "Productivity"')

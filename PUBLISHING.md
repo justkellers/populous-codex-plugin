@@ -14,7 +14,7 @@ python3 plugins/populous/scripts/validate_plugin.py
 plugins/populous/scripts/check_mcp_health.sh
 ```
 
-5. Install from a clean Codex profile or machine and confirm authentication, MCP tool discovery, and one read-only Populous tool call.
+5. Install from a clean Codex profile or machine, enable the plugin, and confirm authentication, MCP tool discovery, and one read-only Populous tool call.
 
 ## Marketplace install
 
