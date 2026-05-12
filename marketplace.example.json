@@ -1,0 +1,20 @@
+{
+  "name": "populous-marketplace",
+  "interface": {
+    "displayName": "Populous"
+  },
+  "plugins": [
+    {
+      "name": "populous",
+      "source": {
+        "source": "local",
+        "path": "./plugins/populous"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

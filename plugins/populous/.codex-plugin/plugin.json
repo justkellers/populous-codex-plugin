@@ -1,0 +1,45 @@
+{
+  "name": "populous",
+  "version": "0.1.0",
+  "description": "Use Populous to create populations, experiments, simulations, and autonomous research tasks.",
+  "author": {
+    "name": "Populous",
+    "email": "support@populous.app",
+    "url": "https://run.populous.app"
+  },
+  "homepage": "https://run.populous.app",
+  "repository": "https://github.com/justkellers/populous-codex-plugin",
+  "license": "Proprietary",
+  "keywords": [
+    "populous",
+    "simulation",
+    "customer-research",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Populous",
+    "shortDescription": "Run AI customer research through Populous.",
+    "longDescription": "Create target populations, generate experiments, run simulations, inspect results, and launch autonomous research tasks through the Populous MCP server.",
+    "developerName": "Populous",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Research",
+      "Write"
+    ],
+    "websiteURL": "https://run.populous.app",
+    "privacyPolicyURL": "https://run.populous.app/privacy",
+    "termsOfServiceURL": "https://run.populous.app/terms",
+    "defaultPrompt": [
+      "Use Populous to test this product idea.",
+      "Create a population and run a survey simulation.",
+      "Check my latest Populous simulation results."
+    ],
+    "brandColor": "#3B82F6",
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
+}
